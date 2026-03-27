@@ -97,6 +97,12 @@
       "description": "MongoDB schema design and indexing",
       "keywords": ["schema", "model", "collection", "index", "MongoDB", "database", "query", "aggregation", "mongoose", "migration DB"],
       "excludeKeywords": ["bug", "fix", "briefing"]
+    },
+    {
+      "skill": "/claudeclaw:jobs",
+      "description": "Créer, lister ou supprimer des cron jobs claudeclaw",
+      "keywords": ["cron", "job", "schedule", "toutes les", "every", "rappel", "reminder", "répète", "repeat", "automatique", "planifie", "planifier", "intervalle", "minutely", "hourly", "daily"],
+      "excludeKeywords": ["bug", "fix", "code"]
     }
   ]
 }
