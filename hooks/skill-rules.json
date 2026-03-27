@@ -1,0 +1,102 @@
+{
+  "rules": [
+    {
+      "skill": "/apex",
+      "description": "Structured implementation workflow (Analyze-Plan-Execute-Validate)",
+      "keywords": ["feature", "implement", "implémente", "ajoute", "ajouter", "créer", "create", "build", "construire", "refactor", "refactorer", "migrate", "migration"],
+      "excludeKeywords": ["review", "bug", "fix", "briefing", "rapport", "recherche", "search"]
+    },
+    {
+      "skill": "/bug",
+      "description": "Structured bug investigation and fix",
+      "keywords": ["bug", "fix", "erreur", "error", "crash", "broken", "cassé", "marche pas", "ne fonctionne pas", "régression", "regression", "debug"]
+    },
+    {
+      "skill": "/review",
+      "description": "Code review before commit",
+      "keywords": ["review", "vérifie", "vérifier", "check", "audit", "inspecte", "qualité", "quality"]
+    },
+    {
+      "skill": "/frontend-design",
+      "description": "Production-grade frontend design",
+      "keywords": ["design", "UI", "interface", "landing", "composant", "component", "page", "layout", "style", "CSS", "tailwind", "dashboard"],
+      "requireContext": ["frontend", "react", "next", "html", "css"]
+    },
+    {
+      "skill": "/simplify",
+      "description": "Code simplification and cleanup",
+      "keywords": ["simplif", "clean", "nettoie", "nettoy", "DRY", "refactor simple", "redundan"]
+    },
+    {
+      "skill": "/context7",
+      "description": "Library documentation lookup",
+      "keywords": ["doc", "documentation", "API", "comment utiliser", "how to use", "quelle version", "latest version"],
+      "requireContext": ["lib", "package", "npm", "dependency", "dépendance"]
+    },
+    {
+      "skill": "/react-best-practices",
+      "description": "React/Next.js performance optimization",
+      "keywords": ["performance", "optimize", "optimise", "render", "memo", "lazy", "suspense", "bundle", "split"],
+      "requireContext": ["react", "next", "component"]
+    },
+    {
+      "skill": "/web-design-guidelines",
+      "description": "Web UI accessibility and UX audit",
+      "keywords": ["accessib", "a11y", "WCAG", "aria", "UX audit", "ergonomie"]
+    },
+    {
+      "skill": "/test-driven-development",
+      "description": "Red-Green-Refactor TDD workflow",
+      "keywords": ["TDD", "test first", "test driven", "red green", "failing test", "test avant", "écrire le test"],
+      "excludeKeywords": ["review", "briefing", "recherche"]
+    },
+    {
+      "skill": "/software-architecture",
+      "description": "Clean Architecture and DDD design principles",
+      "keywords": ["architecture", "structure", "layer", "couche", "domain", "DDD", "clean arch", "separation", "dependency injection", "SOLID"],
+      "excludeKeywords": ["bug", "fix", "briefing"]
+    },
+    {
+      "skill": "/deep-research",
+      "description": "Autonomous multi-source research synthesis",
+      "keywords": ["recherche", "research", "analyse", "investigate", "compare", "rapport", "report", "étude", "survey"],
+      "excludeKeywords": ["bug", "fix", "implement", "code"]
+    },
+    {
+      "skill": "/youtube-transcript",
+      "description": "Extract and process YouTube video transcripts",
+      "keywords": ["youtube", "vidéo", "video", "transcript", "sous-titre", "subtitle", "résumé vidéo"],
+      "excludeKeywords": []
+    },
+    {
+      "skill": "/subagent-driven-development",
+      "description": "Parallel task execution with fresh subagents and review gates",
+      "keywords": ["parallel", "subagent", "dispatch", "multi-task", "parallèle", "découper", "split tasks"],
+      "excludeKeywords": ["bug", "fix", "briefing"]
+    },
+    {
+      "skill": "/systematic-debugging",
+      "description": "4-phase structured debugging methodology",
+      "keywords": ["debug", "investigate", "root cause", "why does", "pourquoi", "cassé", "broken", "ne marche pas", "stack trace", "reproduce"],
+      "excludeKeywords": ["review", "briefing", "recherche"]
+    },
+    {
+      "skill": "/security-auditor",
+      "description": "Security audit checklist for web apps",
+      "keywords": ["security", "sécurité", "vulnerability", "vulnérabilité", "OWASP", "XSS", "injection", "auth bypass", "audit sécurité", "hardening"],
+      "excludeKeywords": ["briefing", "recherche"]
+    },
+    {
+      "skill": "/testing-patterns",
+      "description": "Testing patterns and test framework setup",
+      "keywords": ["test", "testing", "vitest", "jest", "coverage", "mock", "e2e", "integration test", "unit test", "test setup"],
+      "excludeKeywords": ["TDD", "test driven", "review", "briefing"]
+    },
+    {
+      "skill": "/database-design",
+      "description": "MongoDB schema design and indexing",
+      "keywords": ["schema", "model", "collection", "index", "MongoDB", "database", "query", "aggregation", "mongoose", "migration DB"],
+      "excludeKeywords": ["bug", "fix", "briefing"]
+    }
+  ]
+}
